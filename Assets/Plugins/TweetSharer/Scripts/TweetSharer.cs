@@ -47,10 +47,10 @@ namespace UnityTweetSharer
 #endif
 		Action<TweetResult> callback;
 
-		public void Tweet (string text, Action<TweetResult> callback)
+		public void Tweet (string text, Action<TweetResult> callback, string url = null, string imagePath = null)
 		{
 			this.callback = callback;
-			impl.Tweet (text);
+			impl.Tweet (text, url, imagePath);
 		}
 
 		public void OnComplete (string message)

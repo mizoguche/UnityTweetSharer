@@ -40,4 +40,5 @@
 <!-- patched manifest starts here -->
     <activity android:name="info.mizoguche.tweetsharer.TweetSharerActivity" />
   </application>
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 </manifest>

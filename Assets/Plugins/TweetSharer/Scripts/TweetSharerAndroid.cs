@@ -10,7 +10,7 @@ namespace UnityTweetSharer
 		{
 			using (AndroidJavaObject intent = new AndroidJavaObject("android.content.Intent")) {
 				if (!string.IsNullOrEmpty (url)) {
-					text += "\t" + url;
+					text += "\n" + url;
 				}
 
 				if (!string.IsNullOrEmpty (text)) {
