@@ -45,4 +45,4 @@ public class ExampleSceneController : MonoBehaviour
 ```
 
 ## License
-[Apache License Version 2.0](https://github.com/mizoguche/appletree/blob/master/LICENSE)
+[MIT](https://github.com/mizoguche/TweetSharer/blob/master/LICENSE)
